@@ -1,5 +1,4 @@
 /* eslint-disable @next/next/no-img-element */
-import Image from 'next/image'
 
 const About = () => {
 	return (
@@ -12,9 +11,9 @@ const About = () => {
 								<img
 									alt='Photo of Kaitlyn Keech'
 									src='/kaitlynkeech.jpeg'
-									width={1184}
-									height={1376}
-									className='w-full rounded-lg object-cover shadow-lg md:aspect-12/7 lg:aspect-auto'
+									width={592}
+									height={740}
+									className='w-full rounded-lg object-cover shadow-lg lg:aspect-auto'
 								/>
 							</figure>
 						</div>
@@ -32,17 +31,17 @@ const About = () => {
 							<p className='text-lg/7'>
 								Having lived and worked in Kingston, Frontenac, Lennox, and
 								Addington (KFL&A) my entire life, I have a deep understanding of
-								our community’s unique challenges and strengths. With over nine
-								years of experience in social work, I’ve had the privilege of
-								witnessing the incredible resilience and potential within
-								individuals, even in the face of adversity.
+								our community&apos;s unique challenges and strengths. With over
+								nine years of experience in social work, I&apos;ve had the
+								privilege of witnessing the incredible resilience and potential
+								within individuals, even in the face of adversity.
 							</p>
 							<p className='text-lg/7'>
 								I am currently accepting new clients and would love the
 								opportunity to get to know you and explore how I can provide
-								support as you tackle life's challenges. Please email or call me
-								to book a consultation or appointment. I look forward to the
-								opportunity to work with you.
+								support as you tackle life&apos;s challenges. Please email or
+								call me to book a consultation or appointment. I look forward to
+								the opportunity to work with you.
 							</p>
 						</div>
 					</div>

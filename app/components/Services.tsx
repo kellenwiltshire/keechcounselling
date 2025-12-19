@@ -1,5 +1,3 @@
-import { UserIcon } from '@heroicons/react/24/outline'
-
 const Services = () => {
 	return (
 		<section id='services'>
@@ -41,7 +39,7 @@ const Services = () => {
 									<li>Self Esteem</li>
 									<li>Stress</li>
 									<li>Trauma and PTSD</li>
-									<li>Women's Issues</li>
+									<li>Women&apos;s Issues</li>
 								</ul>
 							</div>
 						</div>
@@ -99,11 +97,11 @@ const Services = () => {
 								</p>
 								<p className='mt-2 max-w-lg italic'>
 									I utilize a client-centered, trauma-informed approach in my
-									therapy practice, tailoring treatment to each individual's
-									unique needs. Drawing from evidence-based modalities such as
-									CBT, DBT and EFT, I prioritize creating a safe, collaborative
-									environment that fosters trust, empowerment, and healing at
-									each client's own pace.
+									therapy practice, tailoring treatment to each
+									individual&apos;s unique needs. Drawing from evidence-based
+									modalities such as CBT, DBT and EFT, I prioritize creating a
+									safe, collaborative environment that fosters trust,
+									empowerment, and healing at each client&apos;s own pace.
 								</p>
 							</div>
 						</div>

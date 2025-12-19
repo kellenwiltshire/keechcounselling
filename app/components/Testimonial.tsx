@@ -1,3 +1,5 @@
+import Image from 'next/image'
+
 const Testimonial = () => {
 	return (
 		<section className='isolate overflow-hidden px-6 pt-12 md:pt-0 lg:px-8'>
@@ -18,25 +20,27 @@ const Testimonial = () => {
 						</svg>
 						<blockquote className='text-sm font-semibold text-gray-900 italic sm:text-2xl/9'>
 							<p>
-								Starting therapy can feel overwhelming, but you don’t have to do
-								it alone. I'm here to support you in creating a life that feels
-								authentic and fulfilling. I believe healing and growth happen
-								through connection, and my goal is to walk alongside you on your
-								path of self-discovery. My approach is warm, compassionate, and
-								nonjudgmental. I strive to create a safe, supportive space where
-								you feel truly heard and valued. Whether you're navigating
-								trauma, stress, burnout, emotion regulation, self-esteem, or
-								life transitions, we'll work together to explore tools and
-								strategies that help you move forward with confidence and
-								clarity.
+								Starting therapy can feel overwhelming, but you don&apos;t have
+								to do it alone. I&apos;m here to support you in creating a life
+								that feels authentic and fulfilling. I believe healing and
+								growth happen through connection, and my goal is to walk
+								alongside you on your path of self-discovery. My approach is
+								warm, compassionate, and nonjudgmental. I strive to create a
+								safe, supportive space where you feel truly heard and valued.
+								Whether you&apos;re navigating trauma, stress, burnout, emotion
+								regulation, self-esteem, or life transitions, we&apos;ll work
+								together to explore tools and strategies that help you move
+								forward with confidence and clarity.
 							</p>
 						</blockquote>
 					</div>
-					<div className='col-end-1 hidden w-16 md:block lg:row-span-4 lg:w-72'>
-						<img
-							alt=''
+					<div className='col-end-1 hidden w-16 lg:row-span-4 lg:block lg:w-72'>
+						<Image
+							alt='Kaitlyn Keech Photo'
 							src='/keech2.jpeg'
-							className='rounded-xl bg-indigo-50 lg:rounded-3xl'
+							width={288}
+							height={433}
+							className='w-full rounded-lg object-cover shadow-lg lg:aspect-auto'
 						/>
 					</div>
 				</figure>
