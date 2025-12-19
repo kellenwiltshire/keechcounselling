@@ -1,5 +1,3 @@
-/* eslint-disable @next/next/no-img-element */
-
 const About = () => {
 	return (
 		<section id='about' className='relative overflow-hidden'>
