@@ -33,7 +33,7 @@ const Hero = () => {
 	}, [])
 	return (
 		<>
-			<header className='absolute inset-x-0 top-0 z-50'>
+			{/* <header className='absolute inset-x-0 top-0 z-50'>
 				<nav
 					aria-label='Global'
 					className='fixed flex w-full items-center bg-[#c7bfbb] p-6 text-black md:relative lg:justify-center lg:px-8 lg:py-2'
@@ -108,7 +108,7 @@ const Hero = () => {
 						</div>
 					</DialogPanel>
 				</Dialog>
-			</header>
+			</header> */}
 			<div className='flex w-full justify-center'>
 				<Image
 					alt='Kaitlyn Keech Counselling Logo'
