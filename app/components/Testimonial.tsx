@@ -1,6 +1,6 @@
 const Testimonial = () => {
 	return (
-		<section className='isolate overflow-hidden px-6 lg:px-8'>
+		<section className='isolate overflow-hidden px-6 pt-12 md:pt-0 lg:px-8'>
 			<div className='relative mx-auto max-w-2xl lg:max-w-4xl'>
 				<figure className='grid grid-cols-1 items-center gap-x-6 gap-y-8 lg:gap-x-10'>
 					<div className='relative col-span-2 lg:col-start-1 lg:row-start-2'>
@@ -16,7 +16,7 @@ const Testimonial = () => {
 							/>
 							<use x={86} href='#b56e9dab-6ccb-4d32-ad02-6b4bb5d9bbeb' />
 						</svg>
-						<blockquote className='text-xl/8 font-semibold text-gray-900 italic sm:text-2xl/9'>
+						<blockquote className='text-sm font-semibold text-gray-900 italic sm:text-2xl/9'>
 							<p>
 								Starting therapy can feel overwhelming, but you don’t have to do
 								it alone. I'm here to support you in creating a life that feels
@@ -32,7 +32,7 @@ const Testimonial = () => {
 							</p>
 						</blockquote>
 					</div>
-					<div className='col-end-1 w-16 lg:row-span-4 lg:w-72'>
+					<div className='col-end-1 hidden w-16 md:block lg:row-span-4 lg:w-72'>
 						<img
 							alt=''
 							src='/keech2.jpeg'

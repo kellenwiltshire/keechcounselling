@@ -4,7 +4,7 @@ import Image from 'next/image'
 const About = () => {
 	return (
 		<section id='about' className='relative overflow-hidden'>
-			<div className='relative mx-auto max-w-7xl px-6 py-16 lg:px-8'>
+			<div className='relative mx-auto max-w-7xl px-6 pt-0 md:py-8 lg:px-8'>
 				<div className='mt-8 lg:grid lg:grid-cols-2 lg:gap-8'>
 					<div className='relative lg:col-start-2 lg:row-start-1'>
 						<div className='relative mx-auto max-w-prose text-base lg:max-w-none'>
@@ -14,7 +14,7 @@ const About = () => {
 									src='/kaitlynkeech.jpeg'
 									width={1184}
 									height={1376}
-									className='aspect-12/7 w-full rounded-lg object-cover shadow-lg lg:aspect-auto'
+									className='w-full rounded-lg object-cover shadow-lg md:aspect-12/7 lg:aspect-auto'
 								/>
 							</figure>
 						</div>
