@@ -81,7 +81,7 @@ const Services = () => {
 								<p className='mt-2 max-w-lg text-sm/6 text-gray-600'>
 									Types of Therapy
 								</p>
-								<p className='mt-2 max-w-lg'>
+								<div className='mt-2 max-w-lg'>
 									<ul className='grid list-disc grid-cols-2 gap-x-6 gap-y-2 pl-5'>
 										<li>Cognitive Behavioural (CBT)</li>
 										<li>Dialectical Behavior (DBT)</li>
@@ -94,7 +94,7 @@ const Services = () => {
 										<li>Strength-Based</li>
 										<li>Trauma Based</li>
 									</ul>
-								</p>
+								</div>
 								<p className='mt-2 max-w-lg italic'>
 									I utilize a client-centered, trauma-informed approach in my
 									therapy practice, tailoring treatment to each

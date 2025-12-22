@@ -1,3 +1,5 @@
+import Image from 'next/image'
+
 const About = () => {
 	return (
 		<section id='about' className='relative overflow-hidden'>
@@ -6,12 +8,13 @@ const About = () => {
 					<div className='relative lg:col-start-2 lg:row-start-1'>
 						<div className='relative mx-auto max-w-prose text-base lg:max-w-none'>
 							<figure>
-								<img
+								<Image
 									alt='Photo of Kaitlyn Keech'
-									src='/kaitlynkeech.jpeg'
+									src='/keech1.webp'
+									loading='eager'
 									width={592}
 									height={740}
-									className='w-full rounded-lg object-cover shadow-lg lg:aspect-auto'
+									className='rounded-lg object-cover shadow-lg lg:aspect-auto'
 								/>
 							</figure>
 						</div>

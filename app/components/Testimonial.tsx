@@ -37,7 +37,7 @@ const Testimonial = () => {
 					<div className='col-end-1 hidden w-16 lg:row-span-4 lg:block lg:w-72'>
 						<Image
 							alt='Kaitlyn Keech Photo'
-							src='/keech2.jpeg'
+							src='/keech2.webp'
 							width={288}
 							height={433}
 							className='w-full rounded-lg object-cover shadow-lg lg:aspect-auto'

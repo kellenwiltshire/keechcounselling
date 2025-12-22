@@ -12,7 +12,7 @@ const open_sans = Open_Sans({
 export const metadata: Metadata = {
 	title: 'Kaitlyn Keech Counselling Services',
 	description:
-		'I am a Managed Forest Plan Approver with the Ministry of Natural Resources, dedicated to helping landowners navigate the Managed Forest Tax Incentive Program (MFTIP).',
+		'Kaitlyn Keech Counselling Services offers warm, compassionate, and trauma-informed therapy to support your journey toward healing, self-discovery, and a more fulfilling life.',
 }
 
 export default function RootLayout({

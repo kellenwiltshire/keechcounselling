@@ -1,0 +1,5 @@
+{
+	"ignoreBinaries": ["eslint"],
+	"ignore": ["next-sitemap.config.js"],
+	"ignoreDependencies": ["next-sitemap"]
+}
