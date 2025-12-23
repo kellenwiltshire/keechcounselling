@@ -21,7 +21,9 @@ const Address = () => {
 					Contact Me
 				</h2>
 				<div className='mt-3'>
-					<p className='text-lg text-gray-500'>Serving Kingston and Napanee</p>
+					<p className='text-lg text-gray-500'>
+						Serving Kingston, Napanee, and the surrounding areas
+					</p>
 				</div>
 				<div className='mt-9'>
 					<div className='flex items-center'>

@@ -13,8 +13,8 @@ const Contact = () => {
 						</p>
 					</hgroup>
 					<p className='mx-auto mt-6 max-w-xl text-lg/8 text-pretty text-gray-600'>
-						I am available in person and virtually on Mondays and Wednesdays and
-						in the evenings
+						I am available Wednesdays and Fridays, with other evening
+						availability upon request
 					</p>
 				</div>
 				<div className='mt-12 flex w-full flex-col items-center justify-center border-t border-gray-900/10 pt-12 xl:grid xl:grid-cols-2 xl:gap-8'>
