@@ -4,7 +4,7 @@ import Form from './Form'
 const Contact = () => {
 	const date = new Date().getFullYear()
 	return (
-		<footer id='contact' className='mt-12 w-full'>
+		<section id='contact' className='mt-12 w-full'>
 			<div className='mx-auto max-w-7xl'>
 				<div className='mx-auto text-center'>
 					<hgroup>
@@ -21,14 +21,14 @@ const Contact = () => {
 					<Address />
 					<Form />
 				</div>
-				<div className='mt-12 flex justify-center border-t border-gray-900/10 pt-8'>
+				<footer className='mt-12 flex justify-center border-t border-gray-900/10 pt-8'>
 					<p className='pb-4 text-center text-sm/6 text-gray-600 md:order-1'>
 						&copy; {date} Kaitlyn Keech Counselling Services. <br /> All rights
 						reserved.
 					</p>
-				</div>
+				</footer>
 			</div>
-		</footer>
+		</section>
 	)
 }
 
