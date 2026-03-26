@@ -37,9 +37,11 @@ const Address = () => {
 							<p>
 								Napanee Psycotherapy
 								<br />
-								9 Commercial Court
+								72 Dundas Street East
 								<br />
 								Napanee, On
+								<br />
+								K7R 1S3
 							</p>
 						</div>
 					</div>
